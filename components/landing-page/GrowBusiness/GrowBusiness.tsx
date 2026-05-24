@@ -47,7 +47,7 @@ const GrowBusiness = () => {
                         {growBusinessData.map((item, index) => (
                             <div key={index} className='flex items-center gap-2'>
                                 {item.icon}
-                                <p className='text-[#1D1F2C] text-sm sm:text-base  font-normal  leading-[160%] '>{item.title}</p>
+                                <p className='text-[#1D1F2C] dark:text-[#e4e4e7] text-sm sm:text-base  font-normal  leading-[160%] '>{item.title}</p>
                             </div>
                         ))}
                     </div>
@@ -60,8 +60,8 @@ const GrowBusiness = () => {
                 </CustomButton></div>
             </div>
             <div className="w-full lg:w-1/2">
-                <div className="bg-bgColorOne pt-4 lg:pt-[2.563rem] px-4 lg:px-[2.563rem]   rounded-2xl border
-                                 border-[#E7E0FF] flex justify-center items-center">
+                <div className="bg-white dark:bg-bgColorOne pt-4 lg:pt-[2.563rem] px-4 lg:px-[2.563rem]   rounded-2xl border
+                                 border-borderColor flex justify-center items-center">
                     <Image
                         src="/growBusiness.png"
                         alt="platform"

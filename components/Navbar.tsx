@@ -124,7 +124,7 @@ export default function Navbar() {
           menuOpen ? "translate-x-0" : "translate-x-full",
         )}
       >
-        <div className={cn("w-[80%]  absolute top-0 p-4 right-0 h-full  max-w-[320px] bg-white dark:bg-blackColor/20")}>
+        <div className={cn("w-[80%]  absolute top-0 p-4 right-0 h-full  max-w-[320px] bg-white dark:bg-[#18181b]")}>
           <div className="flex w-full justify-between items-center mb-2">
             <Link href="/" className="flex items-center gap-2">
               <Image src="/site_logo.png" alt="logo" width={50} height={50} />

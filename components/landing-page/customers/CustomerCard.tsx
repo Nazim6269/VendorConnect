@@ -14,7 +14,7 @@ interface CustomerCardProps {
 const CustomerCard = ({ item }: CustomerCardProps) => {
     return (
         <div className='space-y-9 rounded-2xl p-3 sm:p-6
-         border-[0.5px] border-borderColor bg-white hover:border-purpleOne hover:shadow-lg transition-all duration-300'>
+         border-[0.5px] border-borderColor bg-white dark:bg-bgColorOne hover:border-purpleOne hover:shadow-lg transition-all duration-300'>
             <div className='flex flex-col space-y-4'>
                 <ApostropheIcon />
                 <p className='text-sm sm:text-base font-normal text-descriptionColor leading-[160%] '>{item.description}</p>
@@ -31,7 +31,7 @@ const CustomerCard = ({ item }: CustomerCardProps) => {
                     />
                 </div>
                 <div className='space-y-1'>
-                    <h3 className='text-base sm:text-lg font-medium text-blackColor'>{item.name}</h3>
+                    <h3 className='text-base sm:text-lg font-medium text-blackColor dark:text-white'>{item.name}</h3>
                     <span className='text-xs  font-normal text-descriptionColor leading-[160%]'>{item.title}</span>
                 </div>
             </div>

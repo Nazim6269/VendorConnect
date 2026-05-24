@@ -22,7 +22,7 @@ export default function Home() {
       <section id="about" className="scroll-mt-28">
         <ConnectPeople />
       </section>
-      <div className="bg-[#FAFAFA]">
+      <div className="bg-white dark:bg-background">
         <section id="how-it-works" className="scroll-mt-28">
           <PlatformWork />
         </section>
@@ -30,14 +30,14 @@ export default function Home() {
       <section id="services" className="scroll-mt-28">
         <ServiceOverview />
       </section>
-      <div className="bg-[#FAFAFA] dark:bg-background">
+      <div className="bg-white dark:bg-background">
         <WhyChoose />
       </div>
       <GrowBusiness />
-      <div className="bg-[#FAFAFA]">
+      <div className="bg-white dark:bg-background">
         <Customers />
       </div>
-      <div className="dark:bg-blackColor">
+      <div className="bg-white dark:bg-background">
         <ZeroHassle />
       </div>
     </div>

@@ -39,11 +39,11 @@ const PlatformWork = () => {
             {/* Heading */}
             <div className="flex flex-col items-center justify-center space-y-3 sm:space-y-4 text-center">
 
-                <h2 className="text-2xl sm:text-[2.5rem] font-semibold text-blackColor leading-[130%] capitalize">
-                    how out platform works
+                <h2 className="text-2xl sm:text-[2.5rem] font-semibold text-blackColor dark:text-white leading-[130%] capitalize">
+                    how our platform works
                 </h2>
 
-                <p className="text-sm sm:text-base font-normal text-descriptionColor leading-[160%] max-w-full sm:max-w-[700px]">
+                <p className="text-sm sm:text-base font-normal text-descriptionColor dark:text-white leading-[160%] max-w-full sm:max-w-[700px]">
                     We’ve built our platform to simplify the entire process from start to finish. Find the right services, communicate effortlessly, and manage everything
                 </p>
 
@@ -54,8 +54,8 @@ const PlatformWork = () => {
 
                 {/* Image */}
                 <div className="w-full lg:w-1/2">
-                    <div className="bg-bgColorOne pt-4 lg:pt-[2.563rem] px-4 lg:px-[2.563rem]  rounded-2xl border
-                     border-[#E7E0FF] flex justify-center items-center">
+                    <div className="bg-white dark:bg-bgColorOne pt-4 lg:pt-[2.563rem] px-4 lg:px-[2.563rem]  rounded-2xl border
+                     border-borderColor flex justify-center items-center">
                         <Image
                             src="/platform.png"
                             alt="platform"

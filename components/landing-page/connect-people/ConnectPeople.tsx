@@ -27,7 +27,7 @@ const ConnectPeople = () => {
                 <div className="flex justify-between flex-wrap md:flex-nowrap gap-6">
 
                     <div className="flex flex-col space-y-1 w-full md:w-auto">
-                        <div className="h-[0.5px] w-full bg-[#D2D2D5] mb-3" />
+                        <div className="h-[0.5px] w-full bg-[#D2D2D5] dark:bg-borderColor mb-3" />
                         <strong className="text-blackColor text-xl md:text-[2.5rem] font-semibold">
                             17K+
                         </strong>
@@ -37,7 +37,7 @@ const ConnectPeople = () => {
                     </div>
 
                     <div className="flex flex-col space-y-1 w-full md:w-auto">
-                        <div className="h-[0.5px] w-full bg-[#D2D2D5] mb-3" />
+                        <div className="h-[0.5px] w-full bg-[#D2D2D5] dark:bg-borderColor mb-3" />
                         <strong className="text-blackColor text-xl md:text-[2.5rem] font-semibold">
                             12K+
                         </strong>

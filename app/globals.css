@@ -190,6 +190,14 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+
+  --blackColor: #e4e4e7;
+  --descriptionColor: #a1a1aa;
+  --borderColor: #27272a;
+  --bgColorOne: #18181b;
+  --bgColor: rgba(24, 24, 27, 0.5);
+  --grayColor1: #a1a1aa;
+  --grayColor2: #e4e4e7;
 }
 
 @layer base {
@@ -200,6 +208,10 @@
   body {
     @apply bg-white text-blackColor;
   }
+}
+
+.dark body {
+  background-color: #0a0a0c;
 }
 
 .pointer-events-none {
@@ -269,19 +281,20 @@ input:checked~.checkmark {
 
 .nav_container {
   @apply bg-white;
+  border: 0.5px solid #e9e9ea;
 }
 
 .dark .nav_container {
   border-radius: 100px;
   border: 0.5px solid rgba(205, 193, 255, 0.2);
-  background: rgba(205, 193, 255, 0.1);
+  background: rgba(10, 10, 11, 0.1);
   backdrop-filter: blur(6px);
 }
 
 .dark_nav_bg {
   border-radius: 100px;
   border: 0.5px solid rgba(205, 193, 255, 0.2);
-  background: rgba(205, 193, 255, 0.1);
+  background: rgba(29, 29, 29, 0.1);
   backdrop-filter: blur(6px);
 }
 
